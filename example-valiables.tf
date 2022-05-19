@@ -1,0 +1,3 @@
+locals {
+  uname = "terraform"
+}
