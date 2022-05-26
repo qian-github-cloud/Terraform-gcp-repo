@@ -24,6 +24,7 @@ variable "vpc_subnet_name" {
 }
 
 
+
 variable "vpc_subnet_cidr" {
   description = "value of the vpc subnet cidr"
   type        = string
@@ -34,8 +35,7 @@ variable "region" {
   type        = string
 }
 
-variable "network" {
-  description = "value of the network"
-  type        = string
-}
+
+
+
 
