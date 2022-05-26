@@ -18,20 +18,24 @@ variable "mtu" {
   type        = number
 }
 
-# variable "vpc_subnet_name" {
-#   description = "value of the vpc subnet name"
-#   type        = string
-# }
+variable "vpc_subnet_name" {
+  description = "value of the vpc subnet name"
+  type        = string
+}
 
 
-# variable "vpc_subnet_cidr" {
-#   description = "value of the vpc subnet cidr"
-#   type        = string
-# }
+variable "vpc_subnet_cidr" {
+  description = "value of the vpc subnet cidr"
+  type        = string
+}
 
-# variable "region" {
-#   description = "value of the region"
-#   type        = string
-# }
+variable "region" {
+  description = "value of the region"
+  type        = string
+}
 
+variable "network" {
+  description = "value of the network"
+  type        = string
+}
 
