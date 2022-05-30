@@ -25,7 +25,7 @@ variable "subnetwork" {
 
 variable "tags" {
   description = "value of the tags"
-  type        = string
+  type        = list(string)
 }
 
 variable "boot_disk_name" {
@@ -45,10 +45,20 @@ variable "image_name" {
 
 variable "disk_size" {
   description = "value of the disk size"
-  type        = integer
+  type        = number
 }
 
 variable "disk_type" {
   description = "value of the disk type"
+  type        = string
+}
+
+variable "project_id" {
+  description = "value of the project id"
+  type        = string
+}
+
+variable "subnetwork_project" {
+  description = "value of the subnetwork project"
   type        = string
 }

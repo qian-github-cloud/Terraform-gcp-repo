@@ -7,7 +7,7 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
-func TestDevProjectTest(t *testing.T) {
+func TestDevProject(t *testing.T) {
 
 	project_id := "193960632328"
 	network_name := "test-network"
