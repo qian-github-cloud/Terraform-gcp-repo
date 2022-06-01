@@ -41,5 +41,4 @@ func TestRouter(t *testing.T) {
 	if router_nat_name != expect_name {
 		t.Errorf("Expected route_nat_name to be %s, but got %s", expect_name, router_nat_name)
 	}
-
 }
