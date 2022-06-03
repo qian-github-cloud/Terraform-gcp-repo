@@ -1,6 +1,13 @@
 // about Global external HTTPS load balancer
 //https://cloud.google.com/load-balancing/docs/https
-
+//1. proxy-only subnet
+//2. external forwarding rule
+//3. target https proxy
+//4. SSL certificate
+//5. URL map
+//6. backend service
+//7. health check
+//8. firewall rule
 
 
 
