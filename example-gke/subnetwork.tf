@@ -15,3 +15,4 @@ resource "google_compute_subnetwork" "dev" {
         ip_cidr_range = "10.52.0.0/20"
     }
 }
+
